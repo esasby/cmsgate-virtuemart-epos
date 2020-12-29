@@ -1,0 +1,35 @@
+{
+  "name": "esas/cmsgate-virtuemart-epos",
+  "description": "Virtuemart cms payment gate library for Epos (ERIP Belarus)",
+  "keywords": [
+    "cmsgate",
+    "esas",
+    "payment gateway",
+    "virtuemart",
+    "epos",
+    "joomla",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Esas",
+      "email": "info@esas.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "src/vendor"
+  },
+  "require": {
+    "php": ">= 5.6.0",
+    "esas/cmsgate-epos-lib": "~v1.13.5",
+    "esas/cmsgate-virtuemart-lib": "~v1.1.2",
+    "ext-dom": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  }
+}
